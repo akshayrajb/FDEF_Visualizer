@@ -1,0 +1,60 @@
+# FDEF Signal Analyzer - Requirements
+# Production-ready automotive signal dependency analysis tool
+
+# Core dependencies
+numpy==1.24.3
+opencv-python==4.8.1.78
+pillow==10.0.1
+pytesseract==0.3.10
+
+# PDF processing
+PyPDF2==3.0.1
+pdf2image==1.16.3
+
+# Mathematical analysis
+sympy==1.12
+scipy==1.10.1
+
+# Graph analysis and visualization
+networkx==3.1
+matplotlib==3.7.1
+
+# Text processing and fuzzy matching
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.21.1
+
+# Data handling
+pandas==2.0.3
+
+# Web visualization (for HTML exports)
+plotly==5.15.0
+
+# Configuration and utilities
+pyyaml==6.0.1
+click==8.1.6
+tqdm==4.65.0
+
+# Development and testing (optional)
+pytest==7.4.0
+pytest-cov==4.1.0
+black==23.7.0
+flake8==6.0.0
+
+# Documentation (optional)
+sphinx==7.1.2
+sphinx-rtd-theme==1.3.0
+
+# System requirements notes:
+# - Tesseract OCR must be installed separately
+# - Poppler-utils required for PDF to image conversion
+# - On Windows: Install via chocolatey or manual download
+# - On Ubuntu/Debian: sudo apt-get install tesseract-ocr poppler-utils
+# - On macOS: brew install tesseract poppler
+
+# Optional performance improvements
+numba==0.57.1              # JIT compilation for numerical code
+joblib==1.3.1              # Parallel processing utilities
+
+# Optional advanced features
+scikit-image==0.21.0       # Additional image processing
+scikit-learn==1.3.0        # Machine learning utilities for pattern recognition

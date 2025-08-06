@@ -1,0 +1,64 @@
+MIT License
+
+Copyright (c) 2024 FDEF Signal Analyzer
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+FDEF Signal Analyzer - Production-Ready Automotive Signal Dependency Analysis
+
+This software is designed for analyzing Function Design and Engineering Flow
+(FDEF) documents in the automotive industry. It combines advanced computer
+vision, mathematical parsing, and domain-specific pattern matching to extract
+signal dependencies from PDF documents.
+
+Key Features:
+- Advanced PDF processing with OCR optimization
+- Computer vision arrow and block detection
+- Mathematical equation parsing with SymPy
+- Automotive template matching (A2L, AUTOSAR, CAN/LIN)
+- Interactive dependency graph visualization
+- Comprehensive confidence scoring and validation
+
+Dependencies and Attributions:
+- OpenCV (Apache 2.0 License) - Computer vision operations
+- SymPy (BSD License) - Symbolic mathematics
+- NetworkX (BSD License) - Graph algorithms and analysis
+- Tesseract OCR (Apache 2.0 License) - Text recognition
+- Plotly (MIT License) - Interactive visualizations
+- pdf2image (MIT License) - PDF to image conversion
+- NumPy (BSD License) - Numerical computing
+- FuzzyWuzzy (GPL License) - Fuzzy string matching
+
+System Requirements:
+- Python 3.8 or higher
+- Tesseract OCR system installation
+- Poppler utilities for PDF processing
+- Sufficient RAM for image processing (recommended: 4GB+)
+
+Disclaimer:
+This software is provided for educational and research purposes. Users are
+responsible for ensuring compliance with their organization's policies and
+any applicable regulations when processing proprietary or confidential
+documents. The accuracy of signal dependency extraction depends on document
+quality and format consistency.
+
+For support, documentation, and updates, please refer to the project
+repository and documentation files included with this distribution.
